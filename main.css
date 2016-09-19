@@ -6,7 +6,7 @@
 .container {
   overflow: hidden;
   list-style: none;
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
 }
@@ -18,7 +18,7 @@
 
 li.tshirt {
   float:left;
-  width: 275px;
+  width: 22%;
   margin: 15px;
   position: relative;
 }
@@ -42,7 +42,7 @@ li.tshirt {
 
 .flip td {
   border: 2px solid #80BBE5;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -305,3 +305,191 @@ left: 29px;
   .color:hover .triangle2 {
     opacity: 1;
   }
+
+  /*Responsive Design*/
+
+  @media only screen and (max-width: 1150px) {
+    .sizeIcons {
+      left: 38%;
+    }
+
+    .triangle1 {
+      left: 47%;
+    }
+
+    .colorIcons {
+      left: 58%
+    }
+
+    .triangle2 {
+      left: 68%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    li.tshirt {
+      width: 28%;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+
+    .sizeIcons {
+      left:35%;
+    }
+
+    .colorIcons {
+      left: 56%;
+    }
+
+    .triangle1 {
+      left: 46%
+    }
+
+    .triangle2 {
+      left: 67%;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    li.tshirt {
+      width: 27%;
+    }
+
+    .flip td {
+      padding: 3px;
+    }
+
+    .sizeIcons {
+      /*width: 52px;*/
+      left: 33%
+    }
+
+    .sizeIcons img{
+      width:25px;
+    }
+
+    .sizeIcons p {
+      font-size: 9px;
+    }
+
+    .xl {
+      top: 13px;
+      left: 27px;
+    }
+
+    .l {
+      top: 48px;
+    }
+
+    .m {
+      top: 84px;
+    }
+
+    .s {
+      top: 120px;
+    }
+
+    .name, .price {
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 475px){
+
+    li.tshirt {
+      width: 42%;
+    }
+
+@media only screen and (max-width: 391px) {
+    li.tshirt {
+      width: 35%;
+    }
+    .sizeIcons {
+      width: 35%;
+      left: 36%;
+    }
+    .sizeIcons img {
+      width: 20px;
+    }
+
+    .sizeIcons p {
+      font-size: 7px;
+    }
+
+    .xl {
+      top: 12px;
+      left: 18px;
+    }
+
+    .l {
+      top: 42px;
+      left: 20px;
+    }
+
+    .m {
+      top: 72px;
+      left: 18px;
+    }
+
+    .s {
+      top: 102px;
+      left: 19px;
+    }
+
+    .name, .price {
+      font-size: 12px;
+      margin: 3px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+  li.tshirt {
+    width: 29%;
+  }
+
+  .flip td {
+    padding: 1px;
+  }
+
+  .colorIcons {
+    width: 52%;
+    left: 51%;
+  }
+  .triangle2 {
+    left: 61%;
+  }
+  .sizeIcons img {
+    width: 14px;
+  }
+
+  .sizeIcons p {
+    font-size: 5px;
+  }
+
+  .xl {
+    top: 10px;
+    left: 13px;
+  }
+
+  .l {
+    top: 35px;
+    left: 14px;
+  }
+
+  .m {
+    top: 60px;
+    left: 13px;
+  }
+
+  .s {
+    top: 85px;
+    left: 14px;
+  }
+
+  .name, .price {
+    font-size: 10px;
+    margin: 1px;
+  }
+}
