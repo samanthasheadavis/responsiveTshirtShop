@@ -298,26 +298,10 @@ left: 29px;
       opacity: 1;
     }
 
-  #blue:hover .triangle2 {
+  .color:hover .colorIcons {
     opacity: 1;
   }
 
-  #blue:hover .colorIcons {
-    opacity: 1;
-  }
-
-  #pink:hover .colorIcons {
-    opacity:1;
-  }
-
-  #pink:hover .triangle2 {
-    opacity: 1;
-  }
-
-  #yellow:hover .colorIcons {
-    opacity:1;
-  }
-
-  #yellow:hover .triangle2 {
+  .color:hover .triangle2 {
     opacity: 1;
   }
